@@ -1,0 +1,41 @@
+<?php
+
+?>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+<h4>INSCRIPTION</h4>
+<form action="recup.php" method="post">
+    <hr>
+    <div class="name-field">
+        <p>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="lastName">
+        </p>
+        <div>
+            <label>Prénom</label>
+            <input type="text">
+        </div>
+    </div>
+    <label>Adresse Mail</label>
+    <input type="email">
+    <label>Mot de passe</label>
+    <input type="password">
+    <input type="submit" value="S'inscrire">
+    
+    <p>Vous avez déjà un compte ?<a href="#">Se connecter</a></p>
+
+</form> 
+   
+</body>
+</html>
